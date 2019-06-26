@@ -67,7 +67,7 @@ router.put('/:id', async (req, res) => {
         }
     } else {
         res.status(400).json({
-            message: 'Please provide the Id of the company',
+            message: 'Please provide the ID of the company',
         });
     }
 });
